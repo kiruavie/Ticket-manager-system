@@ -1,0 +1,38 @@
+{
+  "name": "ticket-manager-system",
+  "version": "1.0.0",
+  "description": "Mini système de tickets de support client",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.ts",
+    "start": "node src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kiruavie/Ticket-manager-system.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kiruavie/Ticket-manager-system/issues"
+  },
+  "homepage": "https://github.com/kiruavie/Ticket-manager-system#readme",
+  "dependencies": {
+    "@prisma/extension-accelerate": "^2.0.2",
+    "@types/cors": "^2.8.19",
+    "@types/dotenv": "^6.1.1",
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.3.1",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "prisma": "^6.16.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2",
+    "zod": "^4.1.7"
+  }
+}
